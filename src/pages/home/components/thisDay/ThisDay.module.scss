@@ -1,0 +1,45 @@
+@import '../../../../styles/variables.scss';
+
+
+.this__day {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    background: $lite-background;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+}
+
+.top__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.this__temp {
+    font-size: 96px;
+    font-weight: 500;
+    color: $blue-color;
+}
+
+.this__weekday {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.bottom__block {
+    margin-top: 30px;
+}
+
+.this__time {
+    font-size: 25px;
+    font-weight: 400;
+    color: $gray-color;
+}
+
+.this__city {
+    font-size: 25px;
+    font-weight: 400;
+    color: $gray-color;
+    margin-top: 15px;
+}
